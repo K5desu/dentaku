@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import {Button} from"./Button.jsx";
 
@@ -9,8 +9,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <div>
-  
+  <StrictMode>
     <Button />
+  </StrictMode>
+    
     
 
   </div>
